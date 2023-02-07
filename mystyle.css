@@ -1,0 +1,41 @@
+
+.Navigator {
+    padding-left: 10px;
+}
+
+.Navigator:nth-child() {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Viewer-Input {
+    border: 2px solid black;
+    padding: 9px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray
+}
+
+tr:hover {
+    background-color: greenyellow
+}
+
+.Skillset {
+    border: 2px solid black;
+}
+
+.float-image {
+    float:right;
+}
