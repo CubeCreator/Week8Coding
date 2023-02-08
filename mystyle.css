@@ -3,11 +3,22 @@ h1 {
 color: white;
 background-color: black;
 size: 33pt;
+margin-right: 70%;
+padding: 12px;
 }
 
 h2 {
     color: black;
     size: 18pt;
+}
+
+a {
+    background-color: grey;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .Homepage {
@@ -48,12 +59,16 @@ th, td {
     border-bottom: 1px solid black;
 }
 
+tr:nth-child(odd) {
+    background-color: white
+}
+
 tr:nth-child(even) {
     background-color: lightgray
 }
 
 tr:hover {
-    background-color: greenyellow
+    background-color: lightyellow;
 }
 
 .Skillset {
@@ -61,11 +76,18 @@ tr:hover {
     margin-right: 60%;
 }
 
-.basic-image {
+#basic-image {
     border: 2px double black;
+    height: 200px;
 }
 
-.float-image {
+#big-image {
+    border: 4px dashed black;
+    height: 500px;
+}
+
+#float-image {
     float:right;
-    border: 2px double black
+    border: 2px double black;
+    width: 400px;
 }
