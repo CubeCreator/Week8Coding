@@ -46,6 +46,7 @@ a {
     border: 2px solid black;
     padding: 9px;
     margin-right: 60%;
+    background-color: white;
 }
 
 table {
@@ -74,6 +75,7 @@ tr:hover {
 .Skillset {
     border: 2px solid black;
     margin-right: 60%;
+    background-color: white;
 }
 
 #basic-image {
