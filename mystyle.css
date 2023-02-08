@@ -1,4 +1,27 @@
 
+h1 {
+color: white;
+background-color: black;
+size: 33pt;
+}
+
+h2 {
+    color: black;
+    size: 18pt;
+}
+
+.Homepage {
+    background-color: greenyellow;
+}
+
+.Contact {
+    background-color: cyan;
+}
+
+.About-Me {
+    background-color: lightcoral;
+}
+
 .Navigator {
     padding-left: 10px;
 }
@@ -11,6 +34,7 @@
 .Viewer-Input {
     border: 2px solid black;
     padding: 9px;
+    margin-right: 60%;
 }
 
 table {
@@ -34,8 +58,14 @@ tr:hover {
 
 .Skillset {
     border: 2px solid black;
+    margin-right: 60%;
+}
+
+.basic-image {
+    border: 2px double black;
 }
 
 .float-image {
     float:right;
+    border: 2px double black
 }
